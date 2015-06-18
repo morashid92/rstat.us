@@ -26,5 +26,7 @@ RstatUs::Application.configure do
   config.assets.compress = false
 
   # Expands the lines which load the assets
+  # This option may cause significant delays in view rendering with a large
+  # number of complex assets.
   config.assets.debug = true
 end
